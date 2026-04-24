@@ -10,6 +10,7 @@ const {
   getMyApplication,
   assignPendingApplications,
   verifyChapaPayment,
+  resetMyApplication,
 } = require('../controllers/dormController');
 
 const uploadRoot = path.join(process.cwd(), 'uploads', 'dorm-applications');
